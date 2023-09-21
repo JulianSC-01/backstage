@@ -71,3 +71,8 @@ scaffolder:
 catalog:
   rules:
     - allow: [Component, System, API, Resource, Location]
+  locations:
+    - type: file
+      target: ../../examples/doc-template/template.yaml
+      rules:
+        - allow: [Template]
